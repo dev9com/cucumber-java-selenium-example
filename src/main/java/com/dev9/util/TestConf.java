@@ -1,4 +1,4 @@
-package com.dynacrongroup.util;
+package com.dev9.util;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;

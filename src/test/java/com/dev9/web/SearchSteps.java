@@ -1,7 +1,7 @@
-package com.dynacrongroup.web;
+package com.dev9.web;
 
-import com.dynacrongroup.page.SearchQueryPage;
-import com.dynacrongroup.page.SearchResultPage;
+import com.dev9.page.SearchQueryPage;
+import com.dev9.page.SearchResultPage;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;

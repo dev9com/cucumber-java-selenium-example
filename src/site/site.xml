@@ -1,0 +1,8 @@
+<project name="Cucumber-jvm Selenium Sample Project">
+    <body>
+        <menu name="Secret Pages">
+            <item name="Index" href="index.html" />
+        </menu>
+        <menu ref="reports" />
+    </body>
+</project>

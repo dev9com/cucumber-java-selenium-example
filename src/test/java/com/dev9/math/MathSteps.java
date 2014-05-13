@@ -1,4 +1,4 @@
-package com.dynacrongroup.math;
+package com.dev9.math;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

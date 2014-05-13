@@ -1,6 +1,6 @@
-package com.dynacrongroup.page;
+package com.dev9.page;
 
-import com.dynacrongroup.util.TestConf;
+import com.dev9.util.TestConf;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
