@@ -36,7 +36,9 @@ public class SearchSteps {
         caps.setCapability("takesScreenshot", true);
         caps.setCapability(
                 PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,
-                "phantomjs-1.9.7-macosx/bin/phantomjs"
+                //"phantomjs-1.9.7-macosx/bin/phantomjs"
+                "phantomjs-1.9.7-windows/phantomjs.exe"
+
         );
         driver = new PhantomJSDriver(caps);
     }
