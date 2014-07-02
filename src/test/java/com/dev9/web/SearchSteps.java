@@ -10,6 +10,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 import static org.fest.assertions.api.Assertions.assertThat;
 import static org.fest.assertions.api.Fail.fail;
@@ -27,7 +28,7 @@ public class SearchSteps {
 
     @Before({"@requires_browser"})
     public void buildDriver() {
-        driver = new FirefoxDriver();
+        driver = new HtmlUnitDriver();
     }
 
     @After({"@requires_browser"})
